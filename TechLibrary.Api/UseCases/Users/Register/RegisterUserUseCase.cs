@@ -10,8 +10,7 @@ public class RegisterUserUseCase
 {
     public ResponseRegisteredUserJson Execute(RequestUserJson request)
     {
-
-        Validator(request);
+        Validate(request);
 
         var entity = new User
         {
@@ -24,20 +23,20 @@ public class RegisterUserUseCase
 
         dbContext.Users.Add(entity);
         dbContext.SaveChanges();
-        
+
         return new ResponseRegisteredUserJson
         {
-
+            Name = entity.Name,
         };
     }
 
-    private void Validator(RequestUserJson request)
+    private void Validate(RequestUserJson request)
     {
         var validator = new RegisterUserValidator();
-        
+
         var result = validator.Validate(request);
 
-        if (!result.IsValid == false)
+        if (result.IsValid == false) 
         {
             var errorMessages = result.Errors.Select(error => error.ErrorMessage).ToList();
 

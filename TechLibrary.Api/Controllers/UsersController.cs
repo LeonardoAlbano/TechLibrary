@@ -6,7 +6,8 @@ using TechLibrary.Exception;
 
 namespace TechLibrary.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
+
     [ApiController]
     public class UsersController : ControllerBase
     {
