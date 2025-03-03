@@ -264,3 +264,10 @@
 /Users/leonardoalbano/RiderProjects/TechLibary/TechLibrary.Api/bin/Debug/net8.0/TechLibrary.Exception.dll
 /Users/leonardoalbano/RiderProjects/TechLibary/TechLibrary.Api/bin/Debug/net8.0/TechLibrary.Exception.pdb
 /Users/leonardoalbano/RiderProjects/TechLibary/TechLibrary.Api/obj/Debug/net8.0/TechLibrary.Api.sourcelink.json
+/Users/leonardoalbano/RiderProjects/TechLibary/TechLibrary.Api/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/Users/leonardoalbano/RiderProjects/TechLibary/TechLibrary.Api/bin/Debug/net8.0/Microsoft.Bcl.Memory.dll
+/Users/leonardoalbano/RiderProjects/TechLibary/TechLibrary.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/leonardoalbano/RiderProjects/TechLibary/TechLibrary.Api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/leonardoalbano/RiderProjects/TechLibary/TechLibrary.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/leonardoalbano/RiderProjects/TechLibary/TechLibrary.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/leonardoalbano/RiderProjects/TechLibary/TechLibrary.Api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
